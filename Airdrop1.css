@@ -1,0 +1,19 @@
+#info{
+    margin-left:7%;
+}
+#reward,#task{
+    margin-left:5%;
+}
+#verify,#verify1,#verify2{
+    margin-left:10%;
+    background:grey;
+}
+#grab{
+    height:50px;
+    width:370px;
+    font-size:17pt;
+    display:block;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}

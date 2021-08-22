@@ -1,0 +1,50 @@
+
+#airdrop-poster{
+   
+    max-width: 67%;
+    align-items: center;
+    margin-left: 24%;
+    /* height: 50%; */
+    border-radius: 0.2857rem;
+}
+#sorting{
+    text-align:center;
+    display:block;
+}
+#Lists{
+    height:150px;
+    width:150px;
+    margin:5% 2% 5% 2%;
+    display:block;
+}
+#listFlex{
+  display:flex;
+  margin-top:20%;
+}
+#Lists > div >img{
+   height:150px;
+   width:150px;
+   border:1px solid orange;
+   margin:10% 47% 1% 0;
+}
+#join2{
+    position:absolue;
+    left:150%;
+    top:-35%;
+    margin:3%;
+}
+@media screen and (min-width:400px) and (max-width:1000px){
+  #Lists > div >img{
+      margin-left:105%;
+      height:150px;
+      width:500px;
+  }
+  #join1{
+      margin-left:110%;
+  }
+  #join2{
+      margin-left:210%;
+      margin-top:5%;
+  }
+}
+
